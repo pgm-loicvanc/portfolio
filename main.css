@@ -1,0 +1,39 @@
+.introduction
+.introductionlist
+.programminglanguages
+.spokenlanguages
+.experiences
+.education
+.workexperience{
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.content{
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+}
+
+.experiences{
+  background-color: #6FA077;
+  width: 30%;
+  height: 100vh;
+}
+
+.introduction{
+  background-color: #6FA077;
+  width: 30%;
+  height: 100vh;
+}
+
+.skills{
+  background-color: #41683E;
+  width: 30%;
+  height: 100vh;
+}
+
+img{
+  width: 30rem 
+}
