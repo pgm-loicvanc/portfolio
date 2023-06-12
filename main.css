@@ -1,39 +1,28 @@
-.introduction
-.introductionlist
-.programminglanguages
-.spokenlanguages
-.experiences
-.education
-.workexperience{
-  display: flex;
-  flex-direction: column;
-  flex-grow: 1;
+body {
+  background-color: greenyellow;
+  
 }
 
-.content{
-  display: flex;
-  flex-direction: row;
-  flex-grow: 1;
+.container{
+  margin: 0 auto;
+  width: 50rem;
 }
 
-.experiences{
-  background-color: #6FA077;
-  width: 30%;
-  height: 100vh;
+.navigation{
+  margin-left: 2rem;
+  text-align: right;
+  border-bottom: 5mm;
+  border-color: black;
 }
 
-.introduction{
-  background-color: #6FA077;
-  width: 30%;
-  height: 100vh;
-}
-
-.skills{
-  background-color: #41683E;
-  width: 30%;
-  height: 100vh;
+.navi{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 3rem;
+  border-bottom: 5mm;
+  border-color: black;
 }
 
 img{
-  width: 30rem 
+  max-width: 30rem;
 }
